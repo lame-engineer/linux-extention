@@ -1,0 +1,17 @@
+body {
+    width: 700px;
+    height: 400px;
+    background-color: pink;
+    display: table-header-group;
+    justify-content: space-between;
+}
+
+p {
+    display: table-column-group;
+    margin: auto;
+    font-size: 25px;
+    color: navy;
+    border-radius: 5px;
+    border: royalblue;
+    padding: 10px;
+}
