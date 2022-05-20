@@ -15,10 +15,10 @@ CORS(app)
 
 #config
 mysql = MySQL()
-app.config['MYSQL_DATABASE_USER'] = 'admin'
-app.config['MYSQL_DATABASE_PASSWORD'] = '8KH6ipNhIAbz6dzXDous'
+app.config['MYSQL_DATABASE_USER'] = 
+app.config['MYSQL_DATABASE_PASSWORD'] = 
 #app.config['MYSQL_DATABASE_DB'] = ''
-app.config['MYSQL_DATABASE_HOST'] = 'database-1.catbdoykbe7o.ap-south-1.rds.amazonaws.com'
+app.config['MYSQL_DATABASE_HOST'] = 
 mysql.init_app(app)
 print("connected")
 port = 5000
