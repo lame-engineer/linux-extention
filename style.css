@@ -1,17 +1,16 @@
 body {
     width: 700px;
     height: 400px;
-    background-color: pink;
-    display: table-header-group;
+    background-color: #00203FFF;
+    display: list;
     justify-content: space-between;
 }
 
 p {
-    display: table-column-group;
     margin: auto;
     font-size: 25px;
-    color: navy;
+    color: #ADEFD1FF;
     border-radius: 5px;
-    border: royalblue;
+    border: 1 px solid royalblue;
     padding: 10px;
 }
